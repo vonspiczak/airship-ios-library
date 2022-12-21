@@ -9,6 +9,9 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [.macOS(.v10_15), .iOS(.v11), .tvOS(.v11)],
     products: [
+         .library(
+            name: "AirshipBasement",
+            targets: ["AirshipBasement"]),
         .library(
             name: "AirshipCore",
             targets: ["AirshipCore"]),
